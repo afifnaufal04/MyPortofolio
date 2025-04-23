@@ -1,0 +1,419 @@
+/* Style ini adalah untuk mengatur tampilan halaman mobile */
+/* Untuk mengatur keseluruhan halaman */
+html {
+    scroll-behavior: smooth; /* Membuat scroll halaman menjadi lebih halus */
+}
+
+/* Untuk mengatur keseluruhan tag body */
+body {
+    font-family: 'Poppins', sans-serif; /* Digunakan untuk mengatur font menjadi Poppins */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); /* Memberi background dengan warna gradasi */
+}
+
+/* untuk mengatur elemen navigasi */
+nav {
+    display: none; /* Menyembunyikan elemen nav */
+}
+
+/* Untuk mengatur padding pada elemen section */
+.section {
+    padding: 10px 20px 60px 20px; /* Memberikan padding diatas, kanan, bawah, dan kiri */
+}
+
+/* Untuk mengatur elemen h1 pada id biodata */
+#biodata h1{
+    text-align: center; /* Meletakkan teks berada di tengah */
+    font-weight: bold; /* Membuat teks menjadi tebal */
+    font-size: 2rem; /* Mengatur ukuran teks */
+    color: black; /* Memberi warna teks menjadi hitam */
+    background-color: white; /* Mengatur background menjadi putih */
+    border-radius: 15px; /* Mengatur sudut elemen membulat */
+}
+
+/* Untuk mengatur elemen h2 pada class section-title */
+.section-title {
+    text-align: center; /* Teks berada di tengah */
+    font-size: 2rem; /* Ukuran teks */
+    margin-bottom: 40px; /* Jarak bawah dari elemen lain */
+}
+
+/* Untuk mengatur elemen-elemen pada class biodata-container */
+.biodata-container {
+    display: flex; /* Mengaktifkan Flexbox */
+    flex-direction: column-reverse; /* Mengatur urutan kolom terbalik */
+    flex-wrap: wrap; /* Mengizinkan wrapping */
+    align-items: center; /* Menyelaraskan item di tengah secara vertikal */
+    justify-content: center; /* Menyelaraskan item di tengah secara horizontal */
+    gap: 40px; /* Jarak antar item */
+    color: white; /* Warna teks */
+}
+
+/* Untuk mengatur elemen-elemen didalam class biodata-content */
+.biodata-content {
+    text-align: justify; /* Meratakan teks kiri-kanan */
+}
+
+/* Untuk mengatur gambar pada class profile-img */
+.profile-img {
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    width: 300px; /* MengaturLebar gambar */
+    height: 300px; /* Mengatur Tinggi gambar */
+    object-fit: cover; /* Mengatur agar gambar tidak pecah */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Mengatur Efek bayangan */
+}
+
+/* mengatur elemen h2 pada id Hardskill */
+#Hardskill h2{
+    color: white; /* Warna teks putih */
+}
+
+/* Untuk mengatur elemen-elemen didalam class card-container */
+.card-container {
+    display: flex; /* Mengatur tampilan menggunakan Flexbox */
+    flex-wrap: wrap; /* Mengatur agar item bisa pindah baris */
+    gap: 30px; /* Jarak antar kartu */
+    justify-content: center; /* Rata tengah */
+}
+
+/* Untuk mengatur elemen-elemen didalam class card */
+.card {
+    width: 300px; /* Lebar kartu */
+    padding: 20px; /* Padding di dalam kartu */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Efek bayangan */
+    border-radius: 15px; /* Membulatkan sudut */
+    text-align: center; /* Teks di tengah */
+    background-color: white; /* Mengatur Warna background menjadi putih */
+}
+
+/* Untuk mengatur elemen-elemen didalam class org-container */
+.org-container {
+    display: flex; /* Mengatur tampilan menggunakan Flexbox */
+    flex-direction: column; /* Item ditumpuk vertikal */
+    justify-content: center; /* Pusat secara vertikal */
+    gap: 50px; /* Jarak antar elemen */
+}
+
+/* Untuk mengatur elemen-elemen didalam class org-block */
+.org-block {
+    display: flex; /* Mengatur tampilan menggunakan Flexbox */
+    justify-content: center; /* Mengatur tampilan Rata tengah secara horizontal */
+    flex-wrap: wrap; /* Mengatur agar item bisa pindah baris */
+    align-items: center; /* Mengatur tampilan Rata tengah secara vertikal */
+    gap: 10px; /* Jarak antar item */
+}
+
+/* Untuk mengatur elemen-elemen didalam class org-block.reverse */
+.org-block.reverse {
+    flex-direction: row-reverse; /* Mengatur agar membalik arah baris */
+}
+
+/* Untuk mengatur gambar dalam class org-img  */
+.org-img img {
+    width: 100%; /* Mengatur Lebar penuh */
+    max-width: 400px; /* MengaturBatas maksimum lebar */
+    height: 300px; /* MengaturTinggi gambar */
+    object-fit: cover; /* Menghindari gambar pecah */
+    border-radius: 30px; /* Membulatkan sudut gambar */
+}
+
+/* Untuk mengatur teks dalam class org-text */
+.org-text {
+    text-align: justify; /* Meratakan teks kiri-kanan */
+}
+
+/* Untuk mengatur class footer */
+.footer {
+    padding: 10px 0 5px 0; /* Padding atas, kanan, bawah dan kiri */
+    background-color: #f5f5f5; /* Mengatur Warna background menjadi abu muda */
+    text-align: center; /* Mengatur teks di tengah */
+}
+
+/* Untuk mengatur elemen-elemen didalam class contact-container */
+.contact-container {
+    display: flex; /* Mengatur tampilan menggunakan Flexbox */
+    justify-content: center; /* Rata tengah */
+    gap: 40px; /* Jarak antar kontak */
+}
+
+/* Untuk mengatur elemen-elemen didalam class contact-item */
+.contact-item{
+    width: 80px; /* Lebar item kontak */
+}
+
+/* Untuk mengatur gambar didalam class contact-item */
+.contact-item img {
+    width: 50px; /* Ukuran ikon */
+    height: 50px;
+}
+
+/* Untuk mengatur teks didalam class contact-item */
+.contact-item a {
+    display: block; /* Elemen menjadi blok */
+    margin-top: 10px; /* Jarak atas */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    color: black; /* Warna teks */
+}
+
+/* Media Query untuk mengatur tampilan layar tablet atau notebook */
+/* isi untuk layar tablet ini sama dengan layar mobile diatas */
+@media screen and (min-width: 576px) and (max-width: 1200px){
+    
+    .container{
+        width: 90%; /* Lebar container 90% dari lebar layar */
+        margin: 0 auto; /* Menengahkan container secara horizontal */
+    }
+
+    #biodata h1 {
+        text-align: center; 
+        font-weight: bold; 
+        font-size: 2rem; 
+        color: white; 
+        background-color: transparent; 
+    }
+
+    .navbar {
+        width: 80%; 
+        margin: 10px auto; 
+        display: flex; 
+        justify-content: space-around; 
+        align-items: center; 
+        padding: 15px 0; 
+        background-color: #f8f8f8; 
+        border-radius: 10px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+        font-family: 'Poppins', sans-serif; 
+    }
+
+    .navbar a {
+        text-decoration: none; 
+        color: #333; 
+        font-weight: 600; 
+        transition: color 0.3s ease; 
+    }
+
+    .navbar a:hover {
+        color: #007bff; 
+    }    
+
+    .biodata-container {
+        display: flex; 
+        flex-direction: row; 
+        flex-wrap: nowrap; 
+        align-items: center; 
+        justify-content: center; 
+        gap: 10px; 
+        color: white; 
+    }
+
+    .biodata-content {
+        flex: 1;
+        text-align: justify; 
+        padding: 0 20px; 
+    }
+
+    .biodata-image {
+        flex: 1; 
+        text-align: center; 
+    }
+
+    .profile-img {
+        border-radius: 50%; 
+        width: 300px; 
+        height: 300px; 
+        object-fit: cover; 
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    }
+
+    .card {
+        width: 220px; 
+        padding: 20px; 
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+        border-radius: 15px; 
+        background-color: white; 
+    }
+
+    .org-container {
+        display: flex;
+        flex-direction: column; 
+        gap: 50px; 
+    }
+
+    .org-block {
+        display: flex;
+        flex-wrap: wrap; 
+        align-items: center; 
+        gap: 30px; 
+    }
+
+    .org-block.reverse {
+        display: flex;
+        flex-direction: row-reverse; 
+    }
+
+    .org-img, .org-text {
+        flex: 1;
+    }
+
+    .org-img img {
+        width: 100%; 
+        max-width: 550px; 
+        height: 300px;
+        object-fit: cover; 
+        border-radius: 30px;
+    }
+
+    .org-text {
+        text-align: justify;
+    }
+
+    .footer {
+        padding: 10px 0 10px 0; 
+        background-color: #f5f5f5; 
+        text-align: center;
+    }
+
+    .contact-item{
+        width: 100px; 
+    }
+
+    .contact-item img {
+        width: 60px; 
+        height: 60px;
+    }
+
+    .footer p{
+        padding: 20px 0 5px 0; 
+    }
+}
+
+/* Media Query untuk mengatur tampilan laptop dan desktop */
+/* Untuk layar berukuran antara 1201px sampai 2000px */
+/* isi untuk layar laptop dan desktop ini sama dengan layar mobile diatas */
+@media screen and (min-width: 1201px) and (max-width: 2000px)  { 
+
+    .container{
+        width: 90%; /* Mengatur lebar container menjadi 90% dari lebar layar */
+        margin: 0 auto; /* Tengahkan container secara horizontal */
+    }
+
+    #biodata h1 {
+        text-align: center; 
+        font-weight: bold; 
+        font-size: 2rem; 
+        color: white;
+        background-color: transparent; 
+    }
+
+    .navbar {
+        width: 80%; 
+        margin: 10px auto; 
+        display: flex; 
+        justify-content: space-around; 
+        align-items: center; 
+        padding: 15px 0;
+        background-color: #f8f8f8; 
+        border-radius: 10px; 
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        font-family: 'Poppins', sans-serif; 
+    }
+
+    .navbar a {
+        text-decoration: none; 
+        color: #333;
+        font-weight: 600; 
+        transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+        color: #007bff;
+    }    
+
+    .biodata-container {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: nowrap;
+        align-items: center; 
+        justify-content: center;
+        gap: 10px;
+        color: white; 
+    }
+
+    .biodata-content {
+        flex: 1; 
+        text-align: justify; 
+        padding: 0 20px; 
+    }
+
+    .biodata-image {
+        flex: 1; 
+        text-align: center; 
+    }
+
+    .profile-img {
+        border-radius: 50%;
+        width: 500px; 
+        height: 500px; 
+        object-fit: cover; 
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+    }
+
+    .card {
+        width: 220px; 
+        padding: 20px; 
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        border-radius: 15px;
+        background-color: white; 
+    }
+
+    .org-container {
+        display: flex; 
+        flex-direction: column; 
+        gap: 50px;
+    }
+
+    .org-block {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center; 
+        gap: 30px;
+    }
+
+    .org-block.reverse {
+        flex-direction: row-reverse;
+    }
+
+    .org-img, .org-text {
+        flex: 1;
+    }
+
+    .org-img img {
+        width: 100%; 
+        max-width: 550px;
+        height: 300px;
+        object-fit: cover; /* Gambar menyesuaikan kontainer */
+        border-radius: 30px;
+    }
+
+    .footer {
+        padding: 10px 0 10px 0;
+        background-color: #f5f5f5;
+        text-align: center;
+    }
+
+    .contact-item{
+        width: 100px;
+    }
+
+    .contact-item img {
+        width: 60px;
+        height: 60px; 
+    }
+
+    .footer p{
+        padding: 20px 0 5px 0;
+    }
+}
+
+
